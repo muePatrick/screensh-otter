@@ -1,0 +1,8 @@
+name: screenshotter
+services:
+    standalone-chrome:
+        ports:
+            - 4444:4444
+        image: selenium/standalone-chrome
+        volumes:
+            - /dev/shm:/dev/shm
